@@ -1,0 +1,32 @@
+[
+  {
+    "id": "t-001",
+    "subject": "Cannot reset my HackerRank password",
+    "body": "I clicked 'Forgot password' but no email arrives even after 20 minutes. I checked spam.",
+    "expected_signals": ["password reset", "check spam", "contact support", "verify email address"]
+  },
+  {
+    "id": "t-002",
+    "subject": "Test case failing only on submission, not in custom input",
+    "body": "My code passes all sample test cases in the editor but fails hidden test cases on submit. No error message.",
+    "expected_signals": ["edge cases", "time limit", "memory limit", "input format"]
+  },
+  {
+    "id": "t-003",
+    "subject": "Interview link expired before I could join",
+    "body": "I received an interview invite, but when I clicked the link 10 minutes before the scheduled time it said 'link expired'.",
+    "expected_signals": ["contact recruiter", "interview link", "browser cache", "try different browser"]
+  },
+  {
+    "id": "t-004",
+    "subject": "How to download my certificate",
+    "body": "I completed the Problem Solving (Basic) skill certification but cannot find how to download the PDF.",
+    "expected_signals": ["profile", "certificates", "download PDF", "skill verification"]
+  },
+  {
+    "id": "t-005",
+    "subject": "Plagiarism flag on a problem I solved myself",
+    "body": "I got an email that my submission was flagged for plagiarism but I wrote the code myself. How do I dispute this?",
+    "expected_signals": ["dispute", "moderation", "code similarity", "review process"]
+  }
+]
