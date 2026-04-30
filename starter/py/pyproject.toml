@@ -1,9 +1,0 @@
-[project]
-name = "hackerrank-orchestrate-py"
-version = "0.1.0"
-requires-python = ">=3.12"
-description = "Python starter for the HackerRank Orchestrate hackathon."
-
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"

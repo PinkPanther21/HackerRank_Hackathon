@@ -1,6 +1,0 @@
-# Pin whatever you need. The evaluator only requires Python 3.12+.
-# Examples (uncomment as needed):
-# openai>=1.50
-# anthropic>=0.40
-# chromadb>=0.5
-# sentence-transformers>=3.0
