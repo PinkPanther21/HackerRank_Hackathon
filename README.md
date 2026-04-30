@@ -80,6 +80,7 @@ Conventions:
 ## Quickstart
 
 You are free to use any language or runtime. We recommend **Python**, **JavaScript**, or **TypeScript**.
+
 ---
 
 ## Chat transcript logging
