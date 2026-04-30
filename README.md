@@ -79,6 +79,13 @@ Conventions:
 
 ## Quickstart
 
+Clone this repository:
+
+```bash
+git clone git@github.com:interviewstreet/hackerrank-orchestrate-may26.git
+cd hackerrank-orchestrate-may26
+```
+
 You are free to use any language or runtime. We recommend **Python**, **JavaScript**, or **TypeScript**.
 
 ---
