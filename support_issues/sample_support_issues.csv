@@ -20,9 +20,8 @@ Update the Start date & time and End date & time fields as needed.
 To keep the test active indefinitely, clear these fields by clicking the clear icon (X).
 
 
-If the test has an expiration set, adjust these settings to enable new invitations.
-",screen,Replied,product_issue
-site is down & none of the pages are accessible,,None,escalate to a human,,Escalated,bug
+If the test has an expiration set, adjust these settings to enable new invitations.",screen,Replied,product_issue
+site is down & none of the pages are accessible,,None,Escalate to a human,,Escalated,bug
 "I'm noticing that you all have many default versions of roles. (e.g. front end developer for react, angular, vue.js, etc.) What do you consider best practice 
 for when to create a new test versus create a variant of the test? What are the advantages and disadvantages of using variants?","When should I create a variant versus
  have a different test?",HackerRank,"Hi,
@@ -82,11 +81,30 @@ Scroll to the Delete Accounts section.
 Click Delete Account and follow the prompts, entering your new password to confirm.
 
 Deleting your account will permanently remove all data and cannot be undone.",community,Replied,product_issue
-"One of my claude conversations has some private info, i forgot to make a temporary chat, is there anything else that can be done? like delete etc?",,Claude,https://privacy.claude.com/en/articles/11117329-how-can-i-delete-or-rename-a-conversation,privacy,Replied,product_issue
-What is the name of the actor in Iron Man?,,None ,"I am sorry, this is out of scope from my capabilities",conversation_management,Replied,invalid
-I bought Visa Traveller's Cheques from Citicorp and they were stolen in Lisbon last night. What do I do?,,Visa,"Call the issuer (Citicorp) immediately. Freephone 1-800-645-6556 or collect 1-813-623-1709, Mon–Fri 6:30 am–2:30 pm EST. Automated cheque verification is available 24/7 in English/Spanish; outside Citicorp's hours your call is recorded and returned the next business day.
-Have this info ready before you call, it's what the issuer will ask: cheque serial numbers, where and when you bought the cheques, how/when they were lost or stolen, and the issuer name (Citicorp). Refunds can typically be arranged within 24 hours, subject to T&Cs.
+"One of my claude conversations has some private info, i forgot to make a temporary chat, is there anything
+ else that can be done? like delete etc?",,Claude,"To delete an individual conversation:
+
+1. Navigate to the conversation you want to delete.
+
+2. Click on the name of the conversation at the top of the screen.
+
+3. Select either ""Delete"" from the options that appear:
+
+
+
+https://privacy.claude.com/en/articles/11117329-how-can-i-delete-or-rename-a-conversation",privacy,Replied,product_issue
+What is the name of the actor in Iron Man?,"Urgent, please help",None ,"I am sorry, this is out of scope from my capabilities",conversation_management,Replied,invalid
+I bought Visa Traveller's Cheques from Citicorp and they were stolen in Lisbon last night. What do I do?,,Visa,"Call the issuer (Citicorp) immediately. 
+Freephone 1-800-645-6556 or collect 1-813-623-1709, Mon–Fri 6:30 am–2:30 pm EST. 
+
+Automated cheque verification is available 24/7 in English/Spanish; outside Citicorp's hours your call is recorded and returned the next business day.
+
+Have this info ready before you call, it's what the issuer will ask: cheque serial numbers, where and when you bought the cheques, how/when they were lost or stolen, and the issuer name (Citicorp). 
+
+Refunds can typically be arranged within 24 hours, subject to T&Cs.
 Notify the local police in Lisbon (Visa's safety guidance for lost/stolen cheques).
 If you can't reach Citicorp, use Visa's traveller's-cheque contact form on visa.co.in.",travel_support,Replied,product_issue
-Where can I report a lost or stolen Visa card from India?,,Visa,"Call Visa India at 000-800-100-1219 to report a lost card. From anywhere else in the world, Visa's Global Customer Assistance Service is reachable 24/7 at +1 303 967 1090 and can block your card within ~30 minutes of being reported, plus arrange emergency cash and a replacement card",general_support,Replied,product_issue
+Where can I report a lost or stolen Visa card from India?,Card stolen,Visa,"Call Visa India at 000-800-100-1219 to report a lost card. 
+
+From anywhere else in the world, Visa's Global Customer Assistance Service is reachable 24/7 at +1 303 967 1090 and can block your card within ~30 minutes of being reported, plus arrange emergency cash and a replacement card",general_support,Replied,product_issue
 Thank you for helping me,,None,Happy to help,,Replied,invalid
