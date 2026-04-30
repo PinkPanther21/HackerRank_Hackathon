@@ -40,8 +40,8 @@ The log file lives **outside** this repository, in the user's home directory, so
 
 | Platform       | Path                                                    |
 | -------------- | ------------------------------------------------------- |
-| macOS / Linux  | `$HOME/hackerrank_conversations/log.md`                 |
-| Windows        | `%USERPROFILE%\hackerrank_conversations\log.md`         |
+| macOS / Linux  | `$HOME/hackerrank_orchestrate/log.txt`                 |
+| Windows        | `%USERPROFILE%\hackerrank_orchestrate\log.txt`         |
 
 Rules:
 
@@ -150,7 +150,6 @@ Agent Response Summary:
 
 Actions:
 * <file edited / command run / tool invoked>
-* <...>
 
 Context:
 tool=<agent_name>
