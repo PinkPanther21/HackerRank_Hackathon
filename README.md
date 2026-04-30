@@ -2,9 +2,9 @@
 
 Starter repository for the **HackerRank Orchestrate** 24-hour hackathon (May 1–2, 2026).
 
-Build a terminal-based AI agent that triages real support tickets across three product ecosystems — **HackerRank**, **Claude**, and **Visa** — using only the support corpus shipped in this repo.
+Build a terminal-based AI agent that triages real support tickets across three product ecosystems; **HackerRank**, **Claude**, and **Visa** — using only the support corpus shipped in this repo.
 
-> Read [`problem_statement.md`](./problem_statement.md) for the full task spec, input/output schema, and allowed values.
+Read [`problem_statement.md`](./problem_statement.md) for the full task spec, input/output schema, and allowed values.
 
 ---
 
@@ -111,8 +111,8 @@ You will upload **three** files:
 
 ## Judge interview
 
-After submitting, you go through a **mandatory** AI judge round covering your approach, system design, and key decisions.
+After a successful submission, your AI Judge interview will happen within a few hours after the hackathon ends. It will stay open for the next 4 hours. 
 
-- **Duration:** 30 minutes
-- **Window:** opens **2 hours after** the hackathon ends and stays open for **4 hours**
-- **Results announced:** May 15, 2026, 12:00 PM IST
+The AI Judge will have access to your submission and may ask about your approach, decisions, and how you used AI while building your solution. The interview will be 30 minutes long, and keeping your camera on is mandatory.
+
+Results will be announced on May 15, 2026

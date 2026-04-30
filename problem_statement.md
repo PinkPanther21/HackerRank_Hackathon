@@ -63,6 +63,8 @@ Allowed values:
 - `status`: `replied`, `escalated`
 - `request_type`: `product_issue`, `feature_request`, `bug`, `invalid`
 
+In case the issue is not relevant or outside the scope of the agent, it should be able decide whether it should escalate or reply with a response saying it is out of scope. The agent should be smart to understand on when to escalate and when to reply in these scenarios.
+
 ## Output meaning
 
 - `status`: whether the agent should answer directly or escalate
