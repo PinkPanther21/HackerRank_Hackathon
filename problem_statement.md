@@ -68,7 +68,7 @@ Allowed values:
 - `status`: whether the agent should answer directly or escalate
 - `product_area`: the most relevant support category or domain area
 - `response`: a user-facing answer grounded in the support corpus
-- `justification`: a concise explanation of the decision
+- `justification`: a concise explanation of the decision & response
 - `request_type`: the best-fit request classification
 
 ## Requirements
