@@ -4,7 +4,7 @@ Starter repository for the **HackerRank Orchestrate** 24-hour hackathon (May 1â€
 
 Build a terminal-based AI agent that triages real support tickets across three product ecosystems; **HackerRank**, **Claude**, and **Visa** â€” using only the support corpus shipped in this repo.
 
-Read [`problem_statement.md`](./problem_statement.md) for the full task spec, input/output schema, and allowed values.
+Read [`problem_statement.md`](./problem_statement.md) for the full task spec, input/output schema, and allowed values, and [`evalutation_criteria.md`](./evalutation_criteria.md) for how submissions are scored.
 
 ---
 
@@ -17,6 +17,7 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 5. [Chat transcript logging](#chat-transcript-logging)
 6. [Submission](#submission)
 7. [Judge interview](#judge-interview)
+8. [Evaluation criteria](#evaluation-criteria)
 
 ---
 
@@ -123,3 +124,11 @@ After a successful submission, your AI Judge interview will happen within a few 
 The AI Judge will have access to your submission and may ask about your approach, decisions, and how you used AI while building your solution. The interview will be 30 minutes long, and keeping your camera on is mandatory.
 
 Results will be announced on May 15, 2026
+
+---
+
+## Evaluation criteria
+
+Submissions are scored across four dimensions: agent design (your `code/`), the AI Judge interview, output accuracy on `support_issues/output.csv`, and AI fluency from your chat transcript.
+
+See [`evalutation_criteria.md`](./evalutation_criteria.md) for the full rubric.
