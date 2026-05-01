@@ -33,7 +33,7 @@ We look for:
 
 ## 3. Output CSV
 
-Your agent's predictions in `support_issues/output.csv`, produced by running against `support_issues/support_issues.csv`.
+Your agent's predictions in `support_tickets/output.csv`, produced by running against `support_tickets/support_tickets.csv`.
 
 We score per row across all five output columns:
 

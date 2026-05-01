@@ -29,7 +29,7 @@ This is a starter repo for the **HackerRank Orchestrate** 24-hour hackathon
 (May 1–2, 2026). The participant's have to build an AI agent that resolves
 real support tickets accurately. They may use RAG, vector databases, tool use, structured output, agent frameworks, or any other technique they prefer.
 
-There is a known entry point per supported language (§6). There is a support_issues.csv in the support_issues/ folder against which the participants have to run their agent. The participant also defends their approach in an AI judge interview round afterwards.
+There is a known entry point per supported language (§6). There is a support_tickets.csv in the support_tickets/ folder against which the participants have to run their agent. The participant also defends their approach in an AI judge interview round afterwards.
 
 We recommend using one of Python, Javascript or Typescript to build the agent.
 ---
@@ -191,9 +191,9 @@ without updating this file.
 │   ├── your_file.py
 │   ├── agent.py
 │   └── main.py
-├── support_issues/
-│   ├── sample_support_issues.csv             # sample tickets + expected signals
-│   └── support_issues.csv
+├── support_tickets/
+│   ├── sample_support_tickets.csv            # sample tickets + expected signals
+│   └── support_tickets.csv
 │   └── output.csv
 ├── data/
 |   ├── visa/

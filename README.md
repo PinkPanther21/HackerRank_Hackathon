@@ -34,9 +34,9 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 │   ├── hackerrank/                 #   HackerRank help center
 │   ├── claude/                     #   Claude Help Center export
 │   └── visa/                       #   Visa consumer + small-business support
-└── support_issues/
-    ├── sample_support_issues.csv   # Inputs + expected outputs (for development)
-    ├── support_issues.csv          # Inputs only (run your agent on these)
+└── support_tickets/
+    ├── sample_support_tickets.csv  # Inputs + expected outputs (for development)
+    ├── support_tickets.csv         # Inputs only (run your agent on these)
     └── output.csv                  # Write your agent's predictions here
 ```
 
@@ -44,7 +44,7 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 
 ## What you need to build
 
-A terminal-based agent that, for each row in `support_issues/support_issues.csv`, produces:
+A terminal-based agent that, for each row in `support_tickets/support_tickets.csv`, produces:
 
 | Column         | Allowed values                                          |
 | -------------- | ------------------------------------------------------- |
@@ -74,7 +74,7 @@ Conventions:
 - Put a **README inside `code/`** describing how to install dependencies and run your agent.
 - Read secrets **from environment variables only** (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, …). Copy `.env.example` → `.env` (already gitignored) if you keep one. **Never hardcode keys.**
 - Be **deterministic** where possible. Seed any random sampling.
-- Write responses to `support_issues/output.csv`.
+- Write responses to `support_tickets/output.csv`.
 
 ---
 
@@ -111,8 +111,8 @@ Submit on the HackerRank Community Platform:
 
 You will upload **three** files:
 
-1. **Code zip** — zip your `code/` directory and upload it. Exclude virtualenvs, `node_modules`, build artifacts, the `data/` corpus, and the `support_issues/` CSVs.
-2. **Predictions CSV** — your agent's output for `support_issues/support_issues.csv` (i.e. the populated `output.csv`).
+1. **Code zip** — zip your `code/` directory and upload it. Exclude virtualenvs, `node_modules`, build artifacts, the `data/` corpus, and the `support_tickets/` CSVs.
+2. **Predictions CSV** — your agent's output for `support_tickets/support_tickets.csv` (i.e. the populated `output.csv`).
 3. **Chat transcript** — the `log.txt` from the path in [Chat transcript logging](#chat-transcript-logging).
 
 ---
@@ -129,6 +129,6 @@ Results will be announced on May 15, 2026
 
 ## Evaluation criteria
 
-Submissions are scored across four dimensions: agent design (your `code/`), the AI Judge interview, output accuracy on `support_issues/output.csv`, and AI fluency from your chat transcript.
+Submissions are scored across four dimensions: agent design (your `code/`), the AI Judge interview, output accuracy on `support_tickets/output.csv`, and AI fluency from your chat transcript.
 
 See [`evalutation_criteria.md`](./evalutation_criteria.md) for the full rubric.

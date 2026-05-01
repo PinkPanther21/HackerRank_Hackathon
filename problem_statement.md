@@ -25,10 +25,10 @@ Some cases will be simple FAQs. Others may involve billing, bugs, fraud, permiss
 
 You will receive two CSV files:
 
-1. `sample_support_issues.csv`  
+1. `sample_support_tickets.csv`  
    Contains example cases with both inputs and expected outputs. Use this to understand the format and expected behavior.
 
-2. `support_issues.csv`  
+2. `support_tickets.csv`  
    Contains only the inputs. You must run your agent on this file and produce the required outputs.
 
 ## Input schema
